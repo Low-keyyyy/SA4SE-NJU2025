@@ -1,0 +1,9 @@
+Q：According to the given paper, why should we distinguish between technical descriptive text and sentiment expressive text when analyzing sentiment for software engineering texts? Please answer within 50 words.
+
+A:The paper argues that software engineering texts tend to contain more technical descriptive text and less direct sentiment expression compared to texts from social media. Descriptive text details issues encountered during software development, while sentiment expressive text conveys the author's feelings about those issues. Distinguishing between these types of text allows sentiment analysis to focus on the expressive parts and avoid mislabeling neutral descriptive text, improving accuracy.
+
+Q：According to the given paper, how to distinguish between technical descriptive text and sentiment expressive text when analyzing sentiment for software engineering texts? Please answer within 100 words.
+
+A:Here is a 100-word answer:
+
+The paper proposes using sentence structures to distinguish between technical descriptive text and sentiment expressive text in software engineering texts. It first preprocesses the texts to filter out code snippets and other technical elements. Then it defines filter rules to identify sentences that are likely expressing sentiment - such as containing exclamation marks, sentimental words, or first-person judgments. Sentences not matching these expressive patterns are ignored as likely neutral descriptive text. For the identified expressive sentences, adjust rules are used to handle issues like subjunctive clauses, polysemous words, and negations to better capture the expressed sentiment. By leveraging these linguistic structures rather than just keywords, the approach aims to improve accuracy in sentiment analysis for software engineering over neutral technical text.

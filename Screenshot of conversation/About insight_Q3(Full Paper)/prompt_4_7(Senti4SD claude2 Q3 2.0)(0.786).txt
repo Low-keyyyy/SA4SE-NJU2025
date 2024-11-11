@@ -1,0 +1,11 @@
+Q:According to the given paper, why should we distinguish between technical descriptive text and sentiment expressive text when analyzing sentiment for software engineering texts? Please answer within 50 words.
+A：
+The paper argues that off-the-shelf sentiment analysis tools trained on non-technical domains misclassify neutral technical descriptions as negative due to the presence of "problem" vocabulary. Therefore, sentiment analysis tools need to distinguish between technical descriptive text and sentiment expressive text in software engineering domains to avoid this negative classification bias.
+
+Q:According to the given paper, how to distinguish between technical descriptive text and sentiment expressive text when analyzing sentiment for software engineering texts? Please answer within 100 words.
+A:The paper proposes Senti4SD, a sentiment analysis classifier specifically trained on software engineering text to address this issue. Senti4SD incorporates the following distinguishing features:
+
+Lexicon-based features that leverage a domain-specific lexicon to identify positively or negatively charged emotive words, instead of just treating all technical "problem" terms as negative.
+Keyword-based features like emoticons and expressions of gratitude/frustration to identify sentiment language.
+Semantic features based on word embeddings, which represent words by their contextual usage instead of just their prior polarity. This allows for more nuance in determining whether technical terms are being used in a descriptive or emotive manner.
+By combining these feature types, Senti4SD is able to better distinguish between neutral technical language and affective sentiment language compared to general sentiment analysis tools. The authors demonstrate a 19% improvement in precision and 25% improvement in recall on their software engineering text dataset.
