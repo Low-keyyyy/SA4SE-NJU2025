@@ -3,7 +3,7 @@ import time
 import os
 import re
 import pandas as pd
-from prompts import *
+from prompt import get_prompt
 from ChatGPT import gpt_completion as gpt
 
 
@@ -53,12 +53,7 @@ def format_res():
 
 
 def gpt_analysis(def_index, prompt_index, text):
-    def_arr = [
-        get_prompt_1, get_prompt_2, get_prompt_3, get_prompt_4, get_prompt_5,
-        get_prompt_6, get_prompt_7
-    ]
-    gpt_analysis_def = def_arr[def_index - 1]
-    prompt = gpt_analysis_def(prompt_index, text)
+    prompt = get_prompt(def_index, prompt_index, text)
     response = gpt.get_completion_from_pmt_with_big_turbo(prompt)
     return response
 
@@ -110,8 +105,8 @@ def analysis_for_file():
     print("Total time spent: ", total_time, "s")
 
 
-def_index = 6  # Set which series of prompts to use
-prompt_index = 11  # Set which prompt to use in the series
+def_index = 3  # Set which series of prompts to use
+prompt_index = 5  # Set which prompt to use in the series
 target_name = "SOF-1"  # Set which dataset to analyze
 res_def = get_senti_1  # Set which method to use to parse the output results of ChatGPT (Utilize get_senti_1 by default, and all reported data are based on this default def)
 input_fname = f"input/{target_name}_test.txt"

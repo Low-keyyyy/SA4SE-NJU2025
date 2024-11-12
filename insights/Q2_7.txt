@@ -1,0 +1,4 @@
+The paper highlights that commonly used sentiment analysis tools struggle with software engineering texts because they fail to grasp domain-specific meanings of words and phrases. Researchers are developing customized methods to better capture these nuances as existing tools often produce unreliable results.
+
+The paper suggests that existing out-of-box sentiment analysis tools often fail with software engineering (SE) texts due to a lack of domain-specific understanding. To address this, customized methods tailored to SE are recommended, employing supervised or distantly supervised learning techniques. These methods involve creating SE-specific annotated datasets that can be used for within-dataset, within-platform, and cross-platform testing. Additionally, adopting SE-specific sentiment analysis tools like SEntiMoji, which incorporates contextual knowledge from SE texts, can improve the accuracy and reliability of sentiment analysis in this domain.
+

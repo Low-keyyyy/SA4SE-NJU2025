@@ -1,0 +1,8 @@
+The paper introduces SEntiMoji, an emoji-powered learning approach for sentiment analysis in software engineering (SE) texts. The approach addresses the inadequacy of out-of-the-box sentiment tools, which often misunderstand technical jargon. SEntiMoji utilizes emojis as noisy sentiment labels to overcome the scarcity of labeled SE data. It employs two stages:
+
+1. **Representation Learning:** SEntiMoji uses Tweets and GitHub posts containing emojis to learn sentiment-aware representations. This step employs DeepMoji, a pre-trained model on Tweets, and fine-tunes it with developer-generated posts to incorporate domain-specific jargon.
+
+2. **Sentiment Classification:** The model then uses these representations to classify sentiments in SE texts, leveraging both large-scale emoji data and a small set of labeled SE data.
+
+SEntiMoji effectively captures both general sentiment patterns from social media and technical nuances from SE texts, providing a promising solution to sentiment analysis in the SE domain.
+
