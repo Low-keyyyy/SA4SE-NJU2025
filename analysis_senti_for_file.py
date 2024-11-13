@@ -105,8 +105,8 @@ def analysis_for_file():
     print("Total time spent: ", total_time, "s")
 
 
-def_index = 2  # Set which series of prompts to use
-prompt_index = 7  # Set which prompt to use in the series
+def_index = 10  # Set which series of prompts to use
+prompt_index = 10  # Set which prompt to use in the series
 target_name = "SOF-1"  # Set which dataset to analyze
 res_def = get_senti_1  # Set which method to use to parse the output results of ChatGPT (Utilize get_senti_1 by default, and all reported data are based on this default def)
 input_fname = f"input/{target_name}_test.txt"

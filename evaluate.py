@@ -46,6 +46,7 @@ def evaluate(human_labeled_file, pred_file):
         print(f'{precision[index]}\t{recall[index]}\t{f1[index]}')
         result.extend([precision[index], recall[index], f1[index]])
     print("\t".join([str(item) for item in result]))
+    return result
 
 
 #Plot the confusion matrix.
@@ -74,9 +75,11 @@ def draw_confusion_matrix(human_labeled_file, pred_file):
 
 
 if __name__ == '__main__':
+
     target = "SOF-1"
+
     human_labeled_file = f'human_labeled/{target}_test.csv'
-    pred_file = f'ChatGPT/outputs/{target}_formated_p1.1.csv'
+    pred_file = f'ChatGPT/outputs/{target}_formated_p10.10.csv'
 
     evaluate(human_labeled_file, pred_file)
-    draw_confusion_matrix(human_labeled_file, pred_file)
+    # draw_confusion_matrix(human_labeled_file, pred_file)
