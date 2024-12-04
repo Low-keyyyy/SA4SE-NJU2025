@@ -1,0 +1,93 @@
+{"text": "Sorry about that.", "res": "The sentiment of the text is \"negative.\""}
+{"text": "The patch looks good.", "res": "Positive"}
+{"text": "I'm sorry.", "res": "Negative"}
+{"text": "But now that I think about it, it may crap out when coming back to read even on a recovered file.", "res": "Negative"}
+{"text": "The defect  from hell 666, be scared..", "res": "Negative"}
+{"text": "It's not too bad once CacheConfig is in.", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "Taking it over Thanks,Mayank", "res": "The sentiment of the provided software engineering text is \"neutral.\""}
+{"text": "This looks good to me.", "res": "Positive"}
+{"text": "Finally closing this bug from hell.", "res": "Negative"}
+{"text": "You're results are awesome Paul. Great work :) Looking forward to see your new JSON parser in trunk whenever you think is ready.\"", "res": "The sentiment of the provided software engineering text is \"positive\". The text contains expressions of praise and anticipation like \"awesome\", \"Great work\", and \":)\", which convey a positive sentiment."}
+{"text": "Sorry, my code base is a little old, looks alike HADOOP - 9147 add some new test in TestFileStatus.", "res": "The sentiment of the provided software engineering text is \"neutral.\" The text describes a code base as \"a little old\" and mentions the action of adding some new tests but does not express a strong positive or negative sentiment."}
+{"text": "Sorry about that.", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "huh ... i thought i did resolve this.", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "damn this was assigned to you since months.", "res": "Negative"}
+{"text": "This is bad.", "res": "Negative"}
+{"text": "I haven't had any time to try re-upgrading after having to back out 2.0.8, but I will be sure to let you know how it works out as soon as I get the opportunity.", "res": "To determine the sentiment of the given software engineering text, we need to take into account the mentions of emotions and attitudes in the context of software discussions. The text mentions not having had the time to try something again after having to \"back out\" of version 2.0.8. The phrase \"back out\" in this context suggests an action taken to undo or reverse a previous state, often due to issues or problems. However, it's also mentioned that the speaker intends to revisit and report on the task as soon as possible. Despite the mention of a setback, there is no strong expression of frustration or satisfaction; instead, it indicates a neutral stance focused on future action rather than on any positive or negative emotions. Therefore, the sentiment of the given SE text can be considered \"neutral.\""}
+{"text": "Yes it is a dup, thanks Mike for taking care of this (I planned to do this yesterday but didn't make it)", "res": "The sentiment of the provided software engineering text is \"positive.\""}
+{"text": "Sorry I didn't use your patch, but I think you' ll alike the end result.", "res": "The sentiment of the given software engineering text is \"neutral.\" The text expresses a mild apology for not using someone's patch but suggests that the end result will be likable, which balances any potentially negative sentiment from not using the patch."}
+{"text": "It also happens at the very startup after he has loaded only 3 sstables( hence DataTracker likely have 3 sstables, not a shit load).", "res": "The sentiment of the provided software engineering text is \"neutral.\" Although the text uses a mildly informal word (\"shit\"), it doesn't carry a strong positive or negative sentiment and primarily describes a technical scenario without expressing an opinion."}
+{"text": "But please don't say that my reasoning is bad - because it is not.", "res": "The sentiment of the provided software engineering text is \"negative.\""}
+{"text": "Brain fart.", "res": "Neutral"}
+{"text": "Sweet, I will review and apply.", "res": "Positive"}
+{"text": "Great! It's been good to be able to contribute and I hope to be able to more for this awesome project when I have the spare time.", "res": "Positive"}
+{"text": "Sorry to have not spotted this one, and thanks for your care.", "res": "The sentiment of the given text is \"positive.\""}
+{"text": "Please forget last comment, it is incorrect.", "res": "The sentiment of the text is \"negative\"."}
+{"text": "Weird.", "res": "Neutral"}
+{"text": "HTML is quite uncomfortable to work with.", "res": "Negative"}
+{"text": "Applied patch with thanks to Scott.", "res": "The sentiment of the given software engineering text is \"positive\"."}
+{"text": "If you know of a way, please describe it.", "res": "Neutral"}
+{"text": "Sorry about that.", "res": "The sentiment of the provided software engineering text is \"negative.\""}
+{"text": "tricky shit man! I think I found the issue!", "res": "Negative"}
+{"text": "This really sucks!", "res": "Negative"}
+{"text": "Sorry I missed the \"overwrite\" keyword.", "res": "The sentiment of the provided software engineering text is \"neutral.\""}
+{"text": "Forget the patch for the moment.\"", "res": "The sentiment of the provided software engineering text is \"neutral.\" The statement does not express a clear positive or negative sentiment; it simply suggests postponing or disregarding consideration of a patch at the moment."}
+{"text": "Sorry, for all the issue mails, I forgot to mention the second:2) There is commented source in the test, should it be enabled or removed?", "res": "The sentiment of the provided software engineering text is \"neutral.\" The text is asking a question about commented source code, and although it starts with an apology, it does not express any particularly positive or negative sentiment overall; it is more of a factual or clarifying nature."}
+{"text": "Damn...", "res": "negative"}
+{"text": "Sorry if this spam's things, however it's unlikely that I' ll work on these.", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "sorry for your time.", "res": "Negative"}
+{"text": "Hi Carlos, This looks awesome! Lots of cool stuff.", "res": "Positive"}
+{"text": "sorry, this bug is *not* fixed.", "res": "Negative"}
+{"text": "This way lies metadata hell.", "res": "Negative"}
+{"text": "sorry about this.", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "Oops, had a bad comparator in the TestCLI config.", "res": "Negative"}
+{"text": "Ok. Stupid user Error here.", "res": "The sentiment of the given software engineering text is \"negative.\""}
+{"text": "Daryn, the current patch looks good.", "res": "Positive"}
+{"text": "Great work...this is awesome stuff.", "res": "Positive"}
+{"text": "Thank you,+ Harit Himanshu", "res": "Positive"}
+{"text": "Too bad we can't use position:fixed in IE6.", "res": "Negative"}
+{"text": "When you install a node module globally it goes into /usr/local where you don't have permissions to move shit into unless you sudo.", "res": "Negative"}
+{"text": "Thanks to Edward and Brock for the reviews.", "res": "The sentiment of the provided software engineering text is \"positive\"."}
+{"text": "I'm an idiot.", "res": "Negative"}
+{"text": "Awesome! This tool is cool.", "res": "Positive"}
+{"text": "I missed the context.", "res": "Neutral"}
+{"text": "This is only a problem with exceptions from java.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "This looks simple and sweet to me.", "res": "Positive"}
+{"text": "My bad.", "res": "Negative"}
+{"text": "It will be great if you could confirm it either way first.", "res": "The sentiment of the text is \"neutral.\""}
+{"text": "Thanks for moving so quickly on this guys.", "res": "Positive"}
+{"text": "My bad.", "res": "Negative"}
+{"text": "This was a very bad bug, introduced by me being an idiot.", "res": "Negative"}
+{"text": "You are messing down deep below hbase in dfs.", "res": "The sentiment of the given text is \"negative\"."}
+{"text": "which is silly -- bad package encapsulation).", "res": "Negative"}
+{"text": "That sounds alike some serious buck passing.", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "Sorry, I guess I'm against \"\"never computing this shit\"\"... because you guys think returning NaN is ok.", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "I lost the whole morning cause HBase's RegionServer was dying with no logs, no nothing... how Am I supposed to debug the issue if u do not even generate a core dump?", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "I've looked at what can be done within the NSIS framework we use to build the Windows installer.", "res": "Neutral"}
+{"text": "Forgot to mention: Thanks to Alejandro and his team for pointing this one...", "res": "Positive"}
+{"text": "I don't care if everything is pretty or not, but we should at least support basic admin functionality in IE IMO (though I have not used it for years for just about anything).", "res": "To determine the sentiment of the provided software engineering text, let's analyze it using the suggested preprocessing steps:\n\n1. **Word Contractions:** There are no contractions to expand.\n2. **URLs and Code Snippets:** These are not present in the text.\n3. **Emoticons:** None are present.\n4. **Negations:** The sentence includes \"I don't care,\" which is a negation. This typically indicates a lack of concern or indifference.\n5. **Stopwords and Stemming:** The sentence doesn't need adjustments here for basic sentiment interpretation.\n\nInterpreting the sentence after considering the negation: The speaker expresses indifference regarding the prettiness of something but emphasizes a need for basic functionality in a specific browser, which they've not used in years. The phrase \"I don't care\" indicates a neutral attitude overall. The context doesn't show any strong positive or negative emotion towards the situation described.\n\nTherefore, the sentiment of the provided text is **neutral**."}
+{"text": "@Ashutosh: thanks a lot for the comments.", "res": "Positive"}
+{"text": "Hello George,The fix looks fine, many thanks!", "res": "Positive"}
+{"text": "Thanks Tony.", "res": "The sentiment of the text \"Thanks Tony.\" is \"positive\"."}
+{"text": "No sorry.", "res": "Negative"}
+{"text": "great. awesome job sergey!", "res": "Positive"}
+{"text": "This sucks.", "res": "Negative"}
+{"text": "(How bad is this?", "res": "Negative"}
+{"text": "Here are 2 patches ... one for adjustExamplePaths.bat & .sh and the other a new file holding 2 User Libraries ... UIMA_LIB & UIMA_AS_LIB.Not sure where this should go ...\"", "res": "Neutral"}
+{"text": "Thanks Alexei, the patch is fine.", "res": "Positive"}
+{"text": "Marcelo, thanks for pointing out this; it is now fixed in rev.", "res": "The sentiment of the given software engineering text is \"positive.\""}
+{"text": "Sorry for the super-slow uptake on this, the new job is using up all of my limited brain resources.", "res": "The sentiment of the given software engineering text is \"neutral.\""}
+{"text": "Here is quite bad.", "res": "Negative"}
+{"text": "who the fuck is asking for scores, but not the max score, and why does their insanely specialized use case justify all these booleans on a central lucene class.", "res": "Negative"}
+{"text": "Thanks, Tom", "res": "The sentiment of the provided software engineering text \"Thanks, Tom\" is \"positive.\""}
+{"text": "Because, we don't care for this in cases where we there is no node that is down.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "Thanks Ravi.", "res": "Neutral"}
+{"text": "I'm happy to use it as the standard logo (i.e. website, etc.).", "res": "Positive"}
+{"text": "A feature with wrong functionality is as bad as, if not worse than, a bad performance.", "res": "The sentiment of the given software engineering text is \"negative.\""}
+{"text": "Thanks Koji!", "res": "Positive"}
+{"text": "I'm a pretty strong -0 on this.", "res": "To determine the sentiment of the text, we need to analyze it carefully considering the context-specific conventions used in software engineering. \n\nIn the context of voting in technical discussions such as in software development or open source projects, people often use terms like \"+1\" or \"-1\" to express positive or negative opinions, respectively. A \"-0\" typically indicates a mildly negative or neutral stance, suggesting disagreement but without a strong objection.\n\nTherefore, the sentiment of the given text ```I'm a pretty strong -0 on this.``` can be considered as \"neutral\"."}
+{"text": "Oh, sorry.", "res": "The sentiment of the given software engineering text \"Oh, sorry.\" is \"neutral.\""}
+{"text": "Thanks Sandy.", "res": "The sentiment of the given software engineering text is \"positive\"."}
+{"text": "Thank you Brandon.", "res": "Neutral"}
+{"text": "Sorry for the confusion :)", "res": "Positive"}
+{"text": "I have a really bad habit of not reading thru all the bug comments before asking questions.", "res": "The sentiment of the given software engineering text is \"negative\"."}

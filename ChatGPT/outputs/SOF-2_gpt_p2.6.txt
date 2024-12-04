@@ -1,0 +1,150 @@
+{"text": "i am trying with Jackson but im getting no suitable output.", "res": "Negative"}
+{"text": "I found that I needed to adjust the Apache configuration to include a ServerName or ServerAlias for the host.", "res": "Neutral"}
+{"text": "Use FileUtils from Apache commons.", "res": "Neutral"}
+{"text": "First declare all variables.", "res": "Neutral"}
+{"text": "This exception is not because of absence of SunPkcs11 because i see the SunPkcs11 that i added, in the providers list.", "res": "Neutral"}
+{"text": "So in order to instantiate ChromeDriver, you need to.", "res": "Neutral"}
+{"text": "I have just a quick question: Are files created before they are finished, or are they finished and then created?", "res": "Neutral"}
+{"text": "I am using this.", "res": "Neutral"}
+{"text": "CODE_FRAGMENT is made of CODE_FRAGMENTs, not CODE_FRAGMENTs.", "res": "Neutral"}
+{"text": "I see some mention of ``flavours ''on the net but seems all the hits are to do with Android development and properties.", "res": "The sentiment of the given software engineering text is \"neutral.\""}
+{"text": "You can setup your API_NAME as filtered resource and have this value filled by maven from maven profile settings - that what we do.", "res": "Neutral"}
+{"text": "You have to new it up.", "res": "The sentiment of the text \"You have to new it up.\" is \"neutral.\" In the context of software engineering, \"new it up\" likely refers to the creation of a new instance of an object (using the `new` keyword in languages like Java or C#), which is a technical action without inherent positive or negative sentiment."}
+{"text": "The following is the error I keep getting.", "res": "Neutral"}
+{"text": "Is there better way than to do it manually?", "res": "The sentiment of the provided software engineering text is \"neutral.\""}
+{"text": "Targetting to achieve.", "res": "Neutral"}
+{"text": "So it's basically in the wrong form.", "res": "Neutral"}
+{"text": "CODE_FRAGMENT informs Java VM when CMS should be triggered.", "res": "Neutral"}
+{"text": "You apparently intend these appointments for the time zone of central North America.", "res": "Neutral"}
+{"text": "which someone converted to a JSON string as follows.", "res": "Neutral"}
+{"text": "This works for me.", "res": "The sentiment of the provided software engineering text is \"neutral.\""}
+{"text": "If you have access to the configuration of your EJB container and you can set the executor, then you could Guava's addCallback method.", "res": "Neutral"}
+{"text": "it's worth a shot.", "res": "In the context of software engineering, the phrase \"it's worth a shot\" is generally considered neutral. It suggests a willingness to try something with a sense of cautious optimism or an acknowledgment that there is no harm in attempting it, without strongly positive or negative connotations."}
+{"text": "For more Information: WEB_ADDRESS.", "res": "Neutral"}
+{"text": "But it isn't working like I expected.", "res": "Negative"}
+{"text": "It's ok.", "res": "Neutral"}
+{"text": "So in other words, it would be a bug to recieve a non workday in this example.", "res": "Neutral"}
+{"text": "Assume you have this directory layout.", "res": "Neutral"}
+{"text": "When your are ready to determine an appointment's start and stop times as seen through the lens of some region's wall-clock time, combine those parts above to generate a CODE_FRAGMENT object.", "res": "Neutral"}
+{"text": "As well, I am adding a set amount of Labels using an array and a for loop,.", "res": "The sentiment of the provided software engineering text is \"neutral.\""}
+{"text": "Specification is JSR 310.", "res": "Neutral"}
+{"text": "Based on the stacktrace, your output directory is not empty.", "res": "Neutral"}
+{"text": "Call it CODE_FRAGMENT or the like.", "res": "Neutral"}
+{"text": "Select the JRE that is used for your projects and hit edit.", "res": "Neutral"}
+{"text": "Unless you start using Maven or a similar dependency management tool.", "res": "Neutral"}
+{"text": "The image below shows that it's being compiled from the Maven script.", "res": "Neutral"}
+{"text": "In your particular example, the code is asymmetric because the HTTP service it designed to talk to is asymmetric.", "res": "Neutral"}
+{"text": "You are really asking too much of the Java runtime ( and Jackson library ), by trying to make them infer all the required information about the type to be instantiated ( based on the parameterized return ).", "res": "Negative"}
+{"text": "I am not able to find any documentation or info.", "res": "Negative"}
+{"text": "I tried below code and I got this output.", "res": "Neutral"}
+{"text": "It started about a month ago, after a deployment.", "res": "Neutral"}
+{"text": "CODE_FRAGMENT creates a capturing group, to be referenced later.", "res": "Neutral"}
+{"text": "No, they don't use busy-waiting.", "res": "Neutral"}
+{"text": "If so, you should provide CODE_FRAGMENT by yourself at it's constructor.", "res": "Neutral"}
+{"text": "I also have set JAVA_HOME.", "res": "Neutral"}
+{"text": "See also `Is there a Java equivalent or methodology for the typedef keyword in C++? '", "res": "The sentiment of the provided software engineering text is \"neutral\". The text is a technical query asking about the equivalent of a programming concept in another language, which does not inherently express any positive or negative sentiment."}
+{"text": "In both cases the BigDecimal shows me what the number is that it holds.", "res": "Neutral"}
+{"text": "Use full path in ANT_HOME, eg.", "res": "Neutral"}
+{"text": "I understand the boolean expression here.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "EDIT: I guess I need to rephrase my queries.", "res": "Neutral"}
+{"text": "Is this due to a technical limitation for sub-pixel AA in general, or a bug in Java, or just because Java doesn't even try for translucent text, or have I missed something?", "res": "The sentiment of the provided software engineering text is \"neutral.\" The text is inquisitive and seeks clarification on a technical issue without expressing any positive or negative sentiment."}
+{"text": "can someone help me how to do this with a piece of code.", "res": "Neutral"}
+{"text": "can not be cast to API_NAME.", "res": "Neutral"}
+{"text": "It's best to do it right from the start.", "res": "Neutral"}
+{"text": "I have set up the Interface as follows.", "res": "Neutral"}
+{"text": "See here.", "res": "Neutral"}
+{"text": "Additionally, the CODE_FRAGMENT is never called.", "res": "Neutral"}
+{"text": "If you decalre CODE_FRAGMENT means all EC, CC, PT and HC values are one.", "res": "Neutral"}
+{"text": "Currently I'm working on a school project for a Java course.", "res": "Neutral"}
+{"text": "It depends: which type of equality do you want?", "res": "Neutral"}
+{"text": "P.S. Tha last question for this is 4 years old so there is eventually a new solution for modern systems with java8 in combination with a native.", "res": "Neutral."}
+{"text": "Here's the official API on Java CODE_FRAGMENT, useful for quantifier syntax.", "res": "Neutral"}
+{"text": "I suspect that's why the language designers made that decision.", "res": "Neutral"}
+{"text": "For example date like CODE_FRAGMENT should be converted to 13 February, 2013.", "res": "Neutral"}
+{"text": "Store the valid strings in a CODE_FRAGMENT, and decide whether a string is a valid day or not based on CODE_FRAGMENT.", "res": "Neutral"}
+{"text": "This way, you can create new readers for any filetype dynamically.", "res": "Neutral"}
+{"text": "Delete with a payload works fine in Jersey clients 2.x.x.", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "I am trying to use EqualsBuilder in the apache commons library.", "res": "The sentiment of the given software engineering text is \"neutral.\""}
+{"text": "When I print the path of the resource using API_NAME ( ''/ resource/API _ NAME'' ) it gives the path correctly as.", "res": "The sentiment of the provided software engineering text is \"neutral\". The text describes a technical process without any emotional connotations or subjective opinions."}
+{"text": "Is any function or api available to intercept addCookie ( ) so that the cookies set by the servlet will be encrypted using servlet filters.", "res": "Neutral"}
+{"text": "Here is an example ( please, note that March 30th 2008 is Daylight Saving change in Italy ).", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "The mentioned components generate a CODE_FRAGMENT.", "res": "Neutral"}
+{"text": "What's happening?", "res": "The sentiment of the given software engineering text is \"neutral.\""}
+{"text": "Below is FILE_NAME which holds the data -.", "res": "Neutral"}
+{"text": "Currently, I have a method.", "res": "Neutral"}
+{"text": "Problem solved.", "res": "The sentiment of the software engineering text \"Problem solved.\" is \"positive\"."}
+{"text": "Like this: CODE_FRAGMENT.", "res": "Neutral"}
+{"text": "I'm about to hang myself with the little rope I have left.", "res": "The sentiment of the provided software engineering text is \"neutral.\" In the context of software engineering, phrases like \"hang myself with the little rope I have left\" can be interpreted metaphorically, often referencing a challenging problem or being out of options, rather than conveying an emotional or negative sentiment."}
+{"text": "i have found out that i have to read the error log.", "res": "The sentiment of the given software engineering text is \"neutral.\""}
+{"text": "Omitted time zone.", "res": "Neutral"}
+{"text": "Another option may be the Factory pattern.", "res": "Neutral."}
+{"text": "That's exactly why you should always store date and times in relation to UTC and convert them to local time zone before displaying, otherwise you risk an ambiguity.", "res": "Neutral"}
+{"text": "When the line is empty, it will return an empty string, CODE_FRAGMENT, not CODE_FRAGMENT.", "res": "Neutral"}
+{"text": "The only scenario I can think of is some a application container that has been requested to abort some work.", "res": "Neutral"}
+{"text": "Add public ``getter ''methods where necessary.", "res": "The sentiment of the given software engineering text is \"neutral.\" The statement is a straightforward technical instruction related to programming and does not convey any particular emotion."}
+{"text": "like sample1, sample2 so I can play the music like FILE_PATH format is FILE_PATH how to get that music name?? )", "res": "The sentiment of the provided software engineering text is \"neutral.\" The text primarily discusses technical aspects of handling file paths in software, showing no apparent emotional connotations."}
+{"text": "What should I do to solve the issue?", "res": "Neutral"}
+{"text": "You can't open CODE_FRAGMENT with CODE_FRAGMENT.", "res": "Neutral"}
+{"text": "FILE_NAME has a few abstract methods of its own.", "res": "Neutral"}
+{"text": "See the documentation of FileWriter.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "Let's put your code inside a method.", "res": "Neutral"}
+{"text": "That shouldn't be an issue though.", "res": "Neutral"}
+{"text": "An SQL EXCEPTION is being caught saying API_NAME: [ Microsoft ] [ ODBC Driver Manager ] Data source name not found and no default driver specified ''.", "res": "Neutral"}
+{"text": "If call is successful, the onResponse ( ) method is called.", "res": "The sentiment of the given software engineering text is \"neutral.\""}
+{"text": "I searched a lot but i not found any solution.", "res": "Negative"}
+{"text": "The code in Java is.", "res": "Neutral"}
+{"text": "Just changing the map's value externally does not reorder the priority queue.", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "Hi I have a sample log file here.", "res": "Neutral"}
+{"text": "jMock, mocking based on Hamcrest Matchers.", "res": "Neutral"}
+{"text": "This is how the slice operator would work.", "res": "Neutral"}
+{"text": "John Spurlock, the create of OData4j, personally responds to almost all of the posts there.", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "I have FILE_NAME that allows to download a file from the internet.", "res": "Neutral"}
+{"text": "But shouldn't it be (... | | fromIndex > = toIndex )?", "res": "Neutral"}
+{"text": "So instead of setting Bundle to null, you can do something like this.", "res": "Neutral"}
+{"text": "I was unable to get a perfect match.", "res": "In the context of software engineering, the statement \"I was unable to get a perfect match\" is likely describing a technical process or outcome rather than expressing an emotional sentiment. Without additional context indicating frustration or disappointment, this statement can be considered \"neutral\" as it is simply stating a factual outcome."}
+{"text": "i have an arraylist of objects, each containing a year/month/day / hour property.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "modified_package_name / name.", "res": "Neutral"}
+{"text": "Exception in thread ``main`` API_NAME: Uncompilable source code - Erroneous tree type.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "More detailed answer about why not allow it for non-parallel streams.", "res": "The sentiment of the provided software engineering text is \"neutral.\""}
+{"text": "or more concisely.", "res": "Neutral"}
+{"text": "The set can be a CODE_FRAGMENT, and you can wrap in an unmodifiable for good measure.", "res": "The sentiment of the provided software engineering text is \"neutral.\""}
+{"text": "This was configured in an API_NAME as follows.", "res": "Neutral"}
+{"text": "I have to implement gtalk like chat application using UDP FILE_NAME.", "res": "The sentiment of the given software engineering text is \"neutral.\""}
+{"text": "Maybe this way... Controller code for the CODE_FRAGMENT.", "res": "neutral"}
+{"text": "Anyway, their current behavior does not allow what you want.", "res": "Neutral"}
+{"text": "can be found here.", "res": "Neutral"}
+{"text": "But it's not necessary for our case.", "res": "Neutral"}
+{"text": "thanks in advance.", "res": "Neutral"}
+{"text": "API_NAME framework is built into Java 8 and later.", "res": "Neutral"}
+{"text": "After that the UI thread CODE_FRAGMENT receives the message inside the CODE_FRAGMENT method.", "res": "The sentiment of the given software engineering text is \"neutral\". The text describes a technical process without any positive or negative emotional connotations."}
+{"text": "Example ( 35 degrees ): WEB_ADDRESS.", "res": "Neutral"}
+{"text": "tells JSF that the CODE_FRAGMENT should return an instance of the given FILE_NAME whenever a renderer of the given component family and renderer type is been requested.", "res": "The sentiment of the given software engineering text is \"neutral.\""}
+{"text": "I am curious about the problem I have proposed.", "res": "Neutral"}
+{"text": "ASCII codes... Characters are understood as integers in the above code ( e.g. CODE_FRAGMENT is 65 ).", "res": "Neutral"}
+{"text": "Also, the compiled library is available by adding the following to API_NAME.", "res": "Neutral"}
+{"text": "It's a good structure for safe publishing of data among threads.", "res": "Positive"}
+{"text": "where CODE_FRAGMENT is your CODE_FRAGMENT.", "res": "Neutral"}
+{"text": "Using FILE_NAME I can do something like this.", "res": "Neutral"}
+{"text": "For some mystic reason, the workflow is not enetering if ( )... Same exact code runs perfectly if I directly paste FILE_NAME files from Eclipse's bin folder.", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "Just delete the method.", "res": "Neutral"}
+{"text": "Using you current code, make this tweak.", "res": "Neutral"}
+{"text": "I did this like this.", "res": "Neutral"}
+{"text": "Thanks a lot @maasg... Solution was to add synchronized ( myArrayList ) before I check the size in the Thread 2.", "res": "The sentiment of the given software engineering (SE) text is \"positive\"."}
+{"text": "So the question is.", "res": "Neutral"}
+{"text": "All attempts I've made were, in a shortcut, unsuccessful.", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "Single page export is limitation of this library used to export PDFs and currently page size is simply increased to accommodate more data.", "res": "Neutral"}
+{"text": "Look the documentation of InputStream #read ( byte [ ] b ).", "res": "Neutral"}
+{"text": "Maybe JavaScript can do the desired actions?", "res": "Neutral"}
+{"text": "Finally, we found the problem.", "res": "Neutral"}
+{"text": "When that is ready I shall post the code.", "res": "Neutral"}
+{"text": "Let me know if you need more details.", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "my beans are destroyed, How on startup I can get the same bean registered.", "res": "The sentiment of the provided software engineering text is \"neutral\". This text seems to be a technical inquiry or issue description related to bean management in a programming context, without any emotional connotation attached to it."}
+{"text": "There is a dynamic templating component that is moving from the tapx component library to core Tapestry in NUMBER.", "res": "Neutral"}
+{"text": "If you've created your File IO and pulled from it in a weird way, you can corrupt the encoding of the key material.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "Let's take a look at the CODE_FRAGMENT method.", "res": "Neutral"}
+{"text": "When i run this API_NAME, their shows only the labels, and No button aor text field.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "The following code therefore, might be ( as I have not attempted using it ) a better one, if you are willing to use Mojarra specific classes.", "res": "Neutral"}
+{"text": "As an aside, configuring the CODE_FRAGMENT that is created by the CODE_FRAGMENT is not supported.", "res": "The sentiment of the given software engineering text is \"neutral.\""}
+{"text": "You can use this regex.", "res": "Neutral"}
+{"text": "Any help would be appreciated.", "res": "Neutral"}
+{"text": "And my Gradle File looks like this.", "res": "Neutral"}

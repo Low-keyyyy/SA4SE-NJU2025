@@ -3,7 +3,7 @@ import time
 import concurrent.futures
 import functools
 
-openai_api_key = 'sk-onKl1M8665QV0A3yxZisOwSDX9Vs14Sevmbiyms6I7C15tiv'
+openai_api_key = ''
 openai_base_url = 'https://api.bianxie.ai/v1'
 
 turbo_name = "gpt-4o-mini"

@@ -1,0 +1,93 @@
+{"text": "Sorry about that.", "res": "Negative"}
+{"text": "The patch looks good.", "res": "Positive"}
+{"text": "I'm sorry.", "res": "negative"}
+{"text": "But now that I think about it, it may crap out when coming back to read even on a recovered file.", "res": "Negative"}
+{"text": "The defect  from hell 666, be scared..", "res": "Negative"}
+{"text": "It's not too bad once CacheConfig is in.", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "Taking it over Thanks,Mayank", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "This looks good to me.", "res": "Positive"}
+{"text": "Finally closing this bug from hell.", "res": "The sentiment of the provided software engineering text is \"positive\"."}
+{"text": "You're results are awesome Paul. Great work :) Looking forward to see your new JSON parser in trunk whenever you think is ready.\"", "res": "Positive"}
+{"text": "Sorry, my code base is a little old, looks alike HADOOP - 9147 add some new test in TestFileStatus.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "Sorry about that.", "res": "Neutral"}
+{"text": "huh ... i thought i did resolve this.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "damn this was assigned to you since months.", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "This is bad.", "res": "Negative"}
+{"text": "I haven't had any time to try re-upgrading after having to back out 2.0.8, but I will be sure to let you know how it works out as soon as I get the opportunity.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "Yes it is a dup, thanks Mike for taking care of this (I planned to do this yesterday but didn't make it)", "res": "The sentiment of the provided software engineering text is \"positive\"."}
+{"text": "Sorry I didn't use your patch, but I think you' ll alike the end result.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "It also happens at the very startup after he has loaded only 3 sstables( hence DataTracker likely have 3 sstables, not a shit load).", "res": "The sentiment of the provided software engineering text is \"negative\"."}
+{"text": "But please don't say that my reasoning is bad - because it is not.", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "Brain fart.", "res": "The sentiment of the text \"Brain fart.\" is \"negative.\""}
+{"text": "Sweet, I will review and apply.", "res": "Positive"}
+{"text": "Great! It's been good to be able to contribute and I hope to be able to more for this awesome project when I have the spare time.", "res": "Positive"}
+{"text": "Sorry to have not spotted this one, and thanks for your care.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "Please forget last comment, it is incorrect.", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "Weird.", "res": "neutral"}
+{"text": "HTML is quite uncomfortable to work with.", "res": "Negative"}
+{"text": "Applied patch with thanks to Scott.", "res": "The sentiment of the provided software engineering text is \"positive\"."}
+{"text": "If you know of a way, please describe it.", "res": "The sentiment of the given software engineering text is \"neutral.\""}
+{"text": "Sorry about that.", "res": "Negative"}
+{"text": "tricky shit man! I think I found the issue!", "res": "The sentiment of the given software engineering text is \"positive\"."}
+{"text": "This really sucks!", "res": "Negative"}
+{"text": "Sorry I missed the \"overwrite\" keyword.", "res": "The sentiment of the text is \"negative\"."}
+{"text": "Forget the patch for the moment.\"", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "Sorry, for all the issue mails, I forgot to mention the second:2) There is commented source in the test, should it be enabled or removed?", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "Damn...", "res": "Negative."}
+{"text": "Sorry if this spam's things, however it's unlikely that I' ll work on these.", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "sorry for your time.", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "Hi Carlos, This looks awesome! Lots of cool stuff.", "res": "Positive"}
+{"text": "sorry, this bug is *not* fixed.", "res": "negative"}
+{"text": "This way lies metadata hell.", "res": "Negative"}
+{"text": "sorry about this.", "res": "The sentiment of the provided software engineering text \"sorry about this.\" is \"negative.\""}
+{"text": "Oops, had a bad comparator in the TestCLI config.", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "Ok. Stupid user Error here.", "res": "The sentiment of the provided software engineering text, \"Ok. Stupid user Error here.\", is \"negative\"."}
+{"text": "Daryn, the current patch looks good.", "res": "Positive"}
+{"text": "Great work...this is awesome stuff.", "res": "Positive"}
+{"text": "Thank you,+ Harit Himanshu", "res": "Neutral"}
+{"text": "Too bad we can't use position:fixed in IE6.", "res": "Negative"}
+{"text": "When you install a node module globally it goes into /usr/local where you don't have permissions to move shit into unless you sudo.", "res": "The sentiment of the provided software engineering text is \"negative.\""}
+{"text": "Thanks to Edward and Brock for the reviews.", "res": "Neutral"}
+{"text": "I'm an idiot.", "res": "Negative"}
+{"text": "Awesome! This tool is cool.", "res": "Positive"}
+{"text": "I missed the context.", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "This is only a problem with exceptions from java.", "res": "Negative"}
+{"text": "This looks simple and sweet to me.", "res": "Positive"}
+{"text": "My bad.", "res": "Negative"}
+{"text": "It will be great if you could confirm it either way first.", "res": "The sentiment of the given software engineering text is \"neutral.\""}
+{"text": "Thanks for moving so quickly on this guys.", "res": "Positive"}
+{"text": "My bad.", "res": "Negative"}
+{"text": "This was a very bad bug, introduced by me being an idiot.", "res": "Negative"}
+{"text": "You are messing down deep below hbase in dfs.", "res": "Negative"}
+{"text": "which is silly -- bad package encapsulation).", "res": "Negative"}
+{"text": "That sounds alike some serious buck passing.", "res": "Negative"}
+{"text": "Sorry, I guess I'm against \"\"never computing this shit\"\"... because you guys think returning NaN is ok.", "res": "Negative"}
+{"text": "I lost the whole morning cause HBase's RegionServer was dying with no logs, no nothing... how Am I supposed to debug the issue if u do not even generate a core dump?", "res": "Negative"}
+{"text": "I've looked at what can be done within the NSIS framework we use to build the Windows installer.", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "Forgot to mention: Thanks to Alejandro and his team for pointing this one...", "res": "Positive"}
+{"text": "I don't care if everything is pretty or not, but we should at least support basic admin functionality in IE IMO (though I have not used it for years for just about anything).", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "@Ashutosh: thanks a lot for the comments.", "res": "The sentiment of the given software engineering (SE) text is \"positive\"."}
+{"text": "Hello George,The fix looks fine, many thanks!", "res": "Positive"}
+{"text": "Thanks Tony.", "res": "The sentiment of the software engineering text \"Thanks Tony.\" is \"positive\"."}
+{"text": "No sorry.", "res": "Negative"}
+{"text": "great. awesome job sergey!", "res": "Positive"}
+{"text": "This sucks.", "res": "negative"}
+{"text": "(How bad is this?", "res": "Negative"}
+{"text": "Here are 2 patches ... one for adjustExamplePaths.bat & .sh and the other a new file holding 2 User Libraries ... UIMA_LIB & UIMA_AS_LIB.Not sure where this should go ...\"", "res": "The sentiment of the provided software engineering text is \"neutral\"."}
+{"text": "Thanks Alexei, the patch is fine.", "res": "The sentiment of the provided software engineering text is \"positive\"."}
+{"text": "Marcelo, thanks for pointing out this; it is now fixed in rev.", "res": "The sentiment of the given software engineering text is \"positive\"."}
+{"text": "Sorry for the super-slow uptake on this, the new job is using up all of my limited brain resources.", "res": "Negative"}
+{"text": "Here is quite bad.", "res": "Negative"}
+{"text": "who the fuck is asking for scores, but not the max score, and why does their insanely specialized use case justify all these booleans on a central lucene class.", "res": "negative"}
+{"text": "Thanks, Tom", "res": "Neutral"}
+{"text": "Because, we don't care for this in cases where we there is no node that is down.", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "Thanks Ravi.", "res": "The sentiment of the given software engineering text is \"positive\"."}
+{"text": "I'm happy to use it as the standard logo (i.e. website, etc.).", "res": "Positive"}
+{"text": "A feature with wrong functionality is as bad as, if not worse than, a bad performance.", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "Thanks Koji!", "res": "Positive"}
+{"text": "I'm a pretty strong -0 on this.", "res": "The sentiment of the text is \"negative\"."}
+{"text": "Oh, sorry.", "res": "Neutral"}
+{"text": "Thanks Sandy.", "res": "Neutral"}
+{"text": "Thank you Brandon.", "res": "Neutral"}
+{"text": "Sorry for the confusion :)", "res": "The sentiment of the given software engineering text is \"neutral.\""}
+{"text": "I have a really bad habit of not reading thru all the bug comments before asking questions.", "res": "Negative"}

@@ -11,7 +11,7 @@ field_list = [
     'negative_F'
 ]
 
-target = 'SOF-1'
+target = 'JIRA-1'
 output_dir = './ChatGPT/outputs/'
 
 
@@ -30,7 +30,7 @@ def generate():
         dic[field_list[index]] = data
 
     data_formated = pd.DataFrame(dic)
-    data_formated.to_csv('data.csv', index=False)
+    data_formated.to_csv(f'data_{target}.csv', index=False)
 
 
 if __name__ == '__main__':
