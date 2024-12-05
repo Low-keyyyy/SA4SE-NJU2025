@@ -1,3 +1,0 @@
-According to the given papers, why should we distinguish between technical descriptive text and sentiment expressive text when analyzing sentiment for software engineering texts? Please answer within 100 words.
-
-According to the given papers, how to distinguish between technical descriptive text and sentiment expressive text when analyzing sentiment for software engineering texts? Please answer within 200 words.

@@ -1,0 +1,35 @@
+{"text": "? so far this one is a really fun im loving it", "res": "Positive"}
+{"text": "nice but after i update i can't open the game? pls fix this game and i love it.i will give 5 star if this game fixed the bug.  username: roenan12 server: s2 libra", "res": "Negative"}
+{"text": "i like  extantion for more laungues super", "res": "The sentiment of the given software engineering text is \"positive\"."}
+{"text": "5star it's dope", "res": "The sentiment of the provided software engineering text is \"positive.\""}
+{"text": "anoying bug i use both the powertoggles notification bar widget and home screen widget.  really good concept as a whole. but... the home screen widget always freezes a couple hours after i configured it.  the widgetbis used to launch my favorite apps  not for toggling anything if you want to resolve it  i can try to give you more info. ofc rating goes up if this is resolved!! :-) ** bug doesn't occur anymore! :d", "res": "The sentiment of the given software engineering text is \"positive\"."}
+{"text": "bug fix keep it up !", "res": "The sentiment of the provided software engineering text is \"positive\"."}
+{"text": "pof i used to love this apps since they upgrade the apps i can't send no messages every times i try to send a message error pop up say i have no services please fix this problem.", "res": "The sentiment of the given software engineering text is \"negative.\""}
+{"text": "very nice app thanx for the team keep the same tendency in future too         o", "res": "The sentiment of the given software engineering text is \"positive\"."}
+{"text": "crashed system stopped working. no matter what i did this app kept crashing the system. my phone wouldn't work. the screen kept going black and i couldn't run anything. happened all of a sudden. uninstalled and went over to go launcher ex. same features  smoother  not crashing even with more widgets running. sorry adw.", "res": "Negative"}
+{"text": "excellent!! everything is awesome but so far i have found that whenever i turn on wifi my battery drains after using this software... may it happens due to widgets or panel. but if i turn off it doesn't happen.", "res": "Negative"}
+{"text": "? what is the best the best thing to scan?", "res": "The sentiment of the provided software engineering text is \"neutral.\" The text is a question asking for information and doesn't express a clear positive or negative sentiment."}
+{"text": "? not for motorola defy", "res": "The sentiment of the provided software engineering text is \"negative\"."}
+{"text": "super very useful and nice", "res": "Positive"}
+{"text": "? its okay but then it freezes other than that's its ok", "res": "The sentiment of the given software engineering text is \"neutral.\""}
+{"text": "amazing this is freaking great", "res": "Positive"}
+{"text": "thanks :-) xperia sp  it's very inspiring!", "res": "Positive"}
+{"text": "freezes game freezes every time you try to connect to your facebook account. game stops responding.", "res": "Negative"}
+{"text": "? the bonus is really great", "res": "The sentiment of the provided software engineering text is \"positive\"."}
+{"text": "great launcher what a nice launcher  should add locker feature", "res": "The sentiment of the given software engineering text is \"positive\"."}
+{"text": "slow  no point. the viewfinder display is really laggy and slow.  doesn't seem to offer any creative black and white features so how does it improve over just desaturating color photos?", "res": "The sentiment of the given software engineering text is \"negative\"."}
+{"text": "x( works but wish it could send pictures and text. its too simple. they should add features to be like voxer!", "res": "The sentiment of the provided software engineering text is \"negative.\""}
+{"text": "love it it's excellent", "res": "Positive"}
+{"text": "the game constantly freezes. very frustrated since update. the game freezes and goes to green screen. i have to restart tablet every time to get game to respond. fix?", "res": "Negative"}
+{"text": "i like it because i enjoy it the picture is very small", "res": "The sentiment of the provided software engineering text is \"positive.\""}
+{"text": "iffy nice clean app but sometimes it works and other times it doesn't.  my os just updated and now it freezes all the time so i had to uninstall.", "res": "Negative"}
+{"text": "really like this app allows me to both catalog my collection and display and sort my collection to make it easier for friends to decide what they want to watch.  i recommend you get the pro version. it's diverse features and ability to access your database from any of your appliances or computers is a blessing. the ability to modify the meta data stored for your movies would be good as sometimes the data is miss classified or incorrectly genred", "res": "Positive."}
+{"text": "freezes after about 2 minutes of gameplay", "res": "Negative"}
+{"text": "alright its okay but it freezes all the time", "res": "Negative"}
+{"text": "? ok  preferred the last version but this is ok.", "res": "The sentiment of the given software engineering text is \"neutral\"."}
+{"text": "its nice this apps is must lovely", "res": "Positive"}
+{"text": "superb! thanks dev for making it free!", "res": "Positive"}
+{"text": "nice it is very useful", "res": "The sentiment of the provided software engineering text is \"positive\"."}
+{"text": "widget locks up my galaxy s3 this a very beautiful looking app and i like it a lot but it regularly locks up the homescreen widget  the clock freezes and the weather status locks up with the status \"locating\". my phone is a samsung galaxy s3 running on 4.1.1 based in the uk. hope this info helps solve the issue as this app is definitely worth a full 5 stars if it were not for it locking up. please fix this and i'll even purchase the add free pro version ;-)", "res": "The sentiment of the given software engineering text is \"negative\". Despite the praise for the app's appearance and potential, the writer primarily expresses a negative sentiment due to the described issue of the widget frequently locking up and affecting the functionality of their device."}
+{"text": "great memory game great for the mind keep you on your toes. helps with memory.", "res": "Positive"}
+{"text": "good app it's customizable which i like. sometimes it's a bit difficult getting items to line up properly and the areas for each part of the display don't change size dynamically so the font sizes will get bigger or smaller to fit in the space alloted for them which i don't like. overall it's a good app though.", "res": "The sentiment of the provided software engineering text is \"neutral.\" Although there are both positive and negative aspects mentioned, the overall tone is balanced by the summarizing statement at the end, indicating a neutral overall sentiment."}

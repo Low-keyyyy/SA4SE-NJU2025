@@ -105,9 +105,17 @@ def analysis_for_file():
     print("Total time spent: ", total_time, "s")
 
 
+def change_argument(d, p):
+    global def_index, prompt_index, input_fname, output_fname, formated_fname
+    def_index, prompt_index = d, p
+    input_fname = f"input/{target_name}_test.txt"
+    output_fname = f"ChatGPT/outputs/{target_name}_gpt_p{def_index}.{prompt_index}.txt"
+    formated_fname = f"ChatGPT/outputs/{target_name}_formated_p{def_index}.{prompt_index}.csv"
+
+
 def_index = 3  # Set which series of prompts to use
-prompt_index = 7  # Set which prompt to use in the series
-target_name = "JIRA-1"  # Set which dataset to analyze
+prompt_index = 1  # Set which prompt to use in the series
+target_name = "AppReview"  # Set which dataset to analyze
 res_def = get_senti_1  # Set which method to use to parse the output results of ChatGPT (Utilize get_senti_1 by default, and all reported data are based on this default def)
 input_fname = f"input/{target_name}_test.txt"
 output_fname = f"ChatGPT/outputs/{target_name}_gpt_p{def_index}.{prompt_index}.txt"
@@ -115,5 +123,17 @@ formated_fname = f"ChatGPT/outputs/{target_name}_formated_p{def_index}.{prompt_i
 
 if __name__ == '__main__':
 
-    analysis_for_file()
-    format_res()
+    for d in range(0, 4):
+        if d == 0:
+            change_argument(0, 1)
+            analysis_for_file()
+            format_res()
+            change_argument(0, 2)
+            analysis_for_file()
+            format_res()
+
+        else:
+            for p in range(1, 8):
+                change_argument(d, p)
+                analysis_for_file()
+                format_res()
