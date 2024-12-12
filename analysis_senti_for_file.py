@@ -149,18 +149,33 @@ def analysis_for_file_with_insights(input_fname, output_fname,insights):
 # formated_fname = f"ChatGPT/outputs/{target_name}_formated_p{def_index}.{prompt_index}.csv"
 
 if __name__ == '__main__':
-    input_dir = Path('./input')
-    output_dir = Path('./ChatGPT/outputs')
-    insights_dir = Path('./insights')
+    # input_dir = Path('./input')
+    # output_dir = Path('./ChatGPT/outputs')
+    # insights_dir = Path('./insights')
+    #
+    # for insight_File in insights_dir.glob("*_insights.txt"):
+    #     print(f"Processing insights from {insight_File}")
+    #     insights = load_insights(insight_File)
+    #
+    #     for input_file in input_dir.glob("*_test.txt"):
+    #         target_name = input_file.stem
+    #         output_fname = output_dir / f"{target_name}_results.jsonl"
+    #         formated_fname = output_dir / f"{target_name}_results.csv"
+    #
+    #         analysis_for_file_with_insights(input_file, output_fname, insights)
+    #         format_res(output_fname, formated_fname)
 
-    for insight_File in insights_dir.glob("*_insights.txt"):
-        print(f"Processing insights from {insight_File}")
-        insights = load_insights(insight_File)
+    # Only run essay1 on SOF-1
+    insight_file = Path('./insights/1_insights.txt')
+    input_file = Path('./input/SOF-1_test.txt')
+    output_file = Path('./ChatGPT/outputs/SOF-1_gpt_autoPrompt_1.txt')
+    formatted_file = Path('./ChatGPT/outputs/SOF-1_formated_autoPrompt_1.csv')
 
-        for input_file in input_dir.glob("*_test.txt"):
-            target_name = input_file.stem
-            output_fname = output_dir / f"{target_name}_results.jsonl"
-            formated_fnmae = output_dir / f"{target_name}_results.csv"
+    print(f"Loading insights file: {insight_file}")
+    insights = load_insights(insight_file)
 
-            analysis_for_file_with_insights(input_file, output_fname, insights)
-            format_res(output_fname, formated_fname)
+    print(f"Analyzing input file: {input_file}")
+    analysis_for_file_with_insights(input_file, output_file, insights)
+
+    print(f"Formatting output file: {formatted_file}")
+    format_res(output_file,formatted_file)

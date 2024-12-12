@@ -48,7 +48,7 @@ def generate_prompts(task_description):
     """
     prompt_to_generate_prompts = f"""
     I need to extract insights from research papers to improve {task_description}.
-    As an expert prompt engineer, please generate five insightful prompts that can guide ChatGPT in digesting insights from these papers. Make sure the prompts are specific, relevant, and help extract the most useful information.
+    As an expert prompt engineer, please generate three insightful prompts that can guide ChatGPT in digesting insights from these papers. Make sure the prompts are specific, relevant, and help extract the most useful information.
     """
     response = gpt.get_completion_from_pmt_with_big_turbo(prompt_to_generate_prompts)
     generated_prompts = response.split("\n")

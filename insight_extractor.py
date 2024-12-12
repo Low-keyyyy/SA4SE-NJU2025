@@ -80,5 +80,8 @@ def create_index():
 if __name__ == '__main__':
     task_description = "sentiment analysis for software engineering texts"
     create_index()
-    for index, essay_name in enumerate(essays_name):
-        extractor(essay_name, index + 1, task_description)
+    # for index, essay_name in enumerate(essays_name):
+    #     extractor(essay_name, index + 1, task_description)
+
+    first_essay_name = essays_name[0]
+    extractor(first_essay_name, 1, task_description)
