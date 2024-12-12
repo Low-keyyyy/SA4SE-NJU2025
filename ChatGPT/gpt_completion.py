@@ -1,10 +1,14 @@
 from openai import OpenAI
+import os
 import time
 import concurrent.futures
 import functools
 
-openai_api_key = ' '
-openai_base_url = ' '
+openai_api_key = os.environ.get("OPENAI_API_KEY")
+openai_base_url = os.environ.get("OPENAI_BASE_URL", "")
+
+if not openai_api_key:
+    raise ValueError("NO OPENAI_API_KEY!")
 
 turbo_name = "gpt-4o-mini"
 big_turbo_name = "gpt-4o"

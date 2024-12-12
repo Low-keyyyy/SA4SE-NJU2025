@@ -1,3 +1,4 @@
+from ChatGPT import gpt_completion as gpt
 # basic SA prompt
 def basic_prompt(index, text):
     # The sentiment analysis prompt used in Andrew Ng's DeepLearning.AI course.
@@ -38,3 +39,17 @@ def get_prompt(def_index, prompt_index, text):
         insight = file.read()
 
     return enhanced_prompt(insight, text)
+
+def generate_prompts(task_description):
+    """
+    Use ChatGPT to dynamically generate prompts for extracting insights.
+    :param task_description: Description of the task (e.g., "sentiment analysis for software engineering texts").
+    :return: A list of dynamically generated prompts.
+    """
+    prompt_to_generate_prompts = f"""
+    I need to extract insights from research papers to improve {task_description}.
+    As an expert prompt engineer, please generate five insightful prompts that can guide ChatGPT in digesting insights from these papers. Make sure the prompts are specific, relevant, and help extract the most useful information.
+    """
+    response = gpt.get_completion_from_pmt_with_big_turbo(prompt_to_generate_prompts)
+    generated_prompts = response.split("\n")
+    return [prompt.strip() for prompt in generated_prompts if prompt.strip()]
