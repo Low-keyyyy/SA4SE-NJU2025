@@ -1,19 +1,23 @@
 import json
 import time
-import os
 import pandas as pd
 from ChatGPT import gpt_completion as gpt
 from pathlib import Path
 
-
-def get_senti_1(text):
-    if "positive" in text.lower():
+def get_sentiment_label(text):
+    """
+    Map the sentiment response to numeric labels.
+    :param text: Sentiment text response ("positive", "neutral", or "negative").
+    :return: Numeric sentiment label (1, 0, -1) or -2 for undefined cases.
+    """
+    text = text.lower()
+    if "positive" in text:
         return 1
-    if "negative" in text.lower():
+    if "negative" in text:
         return -1
-    if "neutral" in text.lower():
+    if "neutral" in text:
         return 0
-    return -2 # Undefined
+    return -2
 
 
 def format_res(output_fname, formated_fname):
@@ -21,18 +25,16 @@ def format_res(output_fname, formated_fname):
     Format results into a CSV file.
     :return:
     """
-    print("Start format_res()")
-    print(f"input_fname: {output_fname}")
-    print(f"output_fname: {formated_fname}")
+    print(f"Formatting results from {output_file} to {formatted_file}")
     text_list = []
     senti_list = []
 
-    with open(output_fname, 'r') as file:
+    with open(output_fname, 'r', encoding='utf-8') as file:
         for line in file:
             res = json.loads(line.strip())
             text = res['text']
             gpt_senti = res['res']
-            senti = get_senti_1(gpt_senti)
+            senti = get_sentiment_label(gpt_senti)
             text_list.append(text)
             senti_list.append(senti)
 
@@ -41,78 +43,70 @@ def format_res(output_fname, formated_fname):
 
 def load_insights(insight_path):
     """
-    Load insights from the specified file.
+    Load insights (responses only) from the specified file and combine all responses into a single string .
     :param insight_path:Path to the insights file.
     :return:A list of insights.
     """
+    insights = []
     with open(insight_path, 'r', encoding='utf-8') as file:
-        return [line.strip() for line in file.readlines() if line.strip()]
-def gpt_analysis_with_insight(insight, text):
-    """
-    Analyze sentiment using a dynamically generated insight.
-    :param insight: The insight to guide the sentiment analysis.
-    :param text: The text to analyze sentiment for.
-    :return: ChatGPT's response.
-    """
-    prompt = f'''
-    {insight}
-    Based on this insight, what is the sentiment of the following text?
-    Text:"{text}"
-    Give your answer as a single word, "positive","neutral" or "negative".
-    '''
-    response = gpt.get_completion_from_pmt_with_big_turbo(prompt)
-    return response
+        content = file.read()
 
+    # Split by "Prompt" and "Response" blocks
+    sections = content.split("Prompt")
+    for section in sections[1:]:  # Skip the first empty split
+        lines = section.strip().split("\n")
+        if len(lines) >= 2:
+            response = lines[1].split(": ", 1)[-1].strip()
+            insights.append(response)
 
-def analysis_for_file_with_insights(input_fname, output_fname,insights):
+    combined_insights = "\n\n".join(insights)
+    return combined_insights
+
+def analyze_with_insights(input_file, output_file, combined_insights):
+    """
+    Analyze sentiment for a text file using insights.
+    :param input_file: Path to the input text file.
+    :param output_file: Path to the output JSONL file.
+    :param combined_insights: Combined insights as a single string.
+    """
     start_time = time.time()
-    print("Start analysis_for_file_with_insights()")
-    print(f"input_fname: {input_fname}")
-    print(f"output_fname: {output_fname}")
+    print(f"Starting analysis for {input_file} with insights.")
 
-    text_resed_list = []
-    if not os.path.exists(output_fname):
-        with open(output_fname, 'w', encoding='utf-8') as file:
-            file.write("")
-    else:
-        with open(output_fname, 'r', encoding='utf-8') as file:
+    if not output_file.exists():
+        output_file.touch()
+
+    processed_texts = set()
+    if output_file.exists() and output_file.stat().st_size > 0:
+        with open(output_file, 'r', encoding='utf-8') as file:
             for line in file:
-                res = json.loads(line)
-                text = res['text']
-                text_resed_list.append(text)
+                processed_texts.add(json.loads(line.strip())['text'])
 
-    text_need_res_list = []
-    with open(input_fname, 'r', encoding='utf-8') as file:
-        for line in file:
-            line = line.strip()
-            text_need_res_list.append(line)
+    with open(input_file, 'r', encoding='utf-8') as infile:
+        with open(output_file, 'a', encoding='utf-8') as outfile:
+            for line in infile:
+                text = line.strip()
+                if text in processed_texts:
+                    continue
 
-    # Iterate over each text and use all insights
-    for i, text_need_res in enumerate(text_need_res_list):
-        text_in_resed = text_resed_list[i] if i < len(
-            text_resed_list) else None
-        if text_need_res == text_in_resed:
-            continue
-
-        # Aggregate results for all insights
-        results = []
-        for insight in insights:
-            senti = gpt_analysis_with_insight(insight, text_need_res)
-            results.append(senti)
-
-        # Store the results
-        res = {'text': text_need_res, 'res': results}
-        res_string = json.dumps(res)
-        print(res_string)
-
-        with open(output_fname, 'a', encoding='utf-8') as file:
-            file.write(res_string + "\n")
+                prompt = f"""
+                Below are several insights to guide sentiment analysis for software engineering texts:
+                {combined_insights}
+                
+                Based on these insights, what is the sentiment of the following text?
+                Text:```{text}```
+                Give your answer as a single word, "positive", "neutral", or "negative".
+                """
+                response = gpt.get_completion_from_pmt_with_big_turbo(prompt)
+                valid_responses = {"positive", "neutral", "negative"}
+                response_cleaned = next((word for word in valid_responses if word in response.lower()), "undefined")
+                print(response_cleaned, end=" ", flush=True)
+                result = {'text': text, 'res': response_cleaned}
+                outfile.write(json.dumps(result) + "\n")
 
     end_time = time.time()
     total_time = end_time - start_time
     print()
-    print("analysis_for_file_with_insights() over!")
-    print("Total time spent: ", total_time, "s")
+    print(f"Analysis completed for {input_file} in {total_time:.2f} seconds.")
 
 
 if __name__ == '__main__':
@@ -136,13 +130,13 @@ if __name__ == '__main__':
     insight_file = Path('./insights/1_insights.txt')
     input_file = Path('./input/SOF-1_test.txt')
     output_file = Path('./ChatGPT/outputs/SOF-1_gpt_autoPrompt_1.txt')
-    formatted_file = Path('./ChatGPT/outputs/SOF-1_formated_autoPrompt_1.csv')
+    formatted_file = Path('./ChatGPT/outputs/SOF-1_formatted_autoPrompt_1.csv')
 
-    print(f"Loading insights file: {insight_file}")
-    insights = load_insights(insight_file)
+    print(f"Loading insights from {insight_file}")
+    combined_insights = load_insights(insight_file)
 
-    print(f"Analyzing input file: {input_file}")
-    analysis_for_file_with_insights(input_file, output_file, insights)
+    print(f"Running analysis on {input_file}")
+    analyze_with_insights(input_file, output_file, combined_insights)
 
-    print(f"Formatting output file: {formatted_file}")
-    format_res(output_file,formatted_file)
+    print(f"Formatting results to {formatted_file}")
+    format_res(output_file, formatted_file)
