@@ -79,7 +79,7 @@ if __name__ == '__main__':
     target = "SOF-1"
 
     human_labeled_file = f'human_labeled/{target}_test.csv'
-    pred_file = f'ChatGPT/outputs/{target}_formated_p10.10.csv'
+    pred_file = f'ChatGPT/outputs/{target}_formatted_autoPrompt_1.csv'
 
     evaluate(human_labeled_file, pred_file)
     # draw_confusion_matrix(human_labeled_file, pred_file)
