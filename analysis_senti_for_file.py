@@ -16,23 +16,6 @@ def get_senti_1(text):
     return -2 # Undefined
 
 
-# def get_senti_2(text):
-#     text = text.lower()
-#     pos_idx = text.find("positive") if text.find("positive") != -1 else len(
-#         text)
-#     neu_idx = text.find("neutral") if text.find("neutral") != -1 else len(text)
-#     neg_idx = text.find("negative") if text.find("negative") != -1 else len(
-#         text)
-#     if pos_idx < min(neu_idx, neg_idx):
-#         return 1
-#     elif neu_idx < min(pos_idx, neg_idx):
-#         return 0
-#     elif neg_idx < min(pos_idx, neu_idx):
-#         return -1
-#     else:
-#         return -2
-
-
 def format_res(output_fname, formated_fname):
     """
     Format results into a CSV file.
@@ -131,22 +114,6 @@ def analysis_for_file_with_insights(input_fname, output_fname,insights):
     print("analysis_for_file_with_insights() over!")
     print("Total time spent: ", total_time, "s")
 
-
-# def change_argument(d, p):
-#     global def_index, prompt_index, input_fname, output_fname, formated_fname
-#     def_index, prompt_index = d, p
-#     input_fname = f"input/{target_name}_test.txt"
-#     output_fname = f"ChatGPT/outputs/{target_name}_gpt_p{def_index}.{prompt_index}.txt"
-#     formated_fname = f"ChatGPT/outputs/{target_name}_formated_p{def_index}.{prompt_index}.csv"
-
-
-# def_index = 3  # Set which series of prompts to use
-# prompt_index = 1  # Set which prompt to use in the series
-# target_name = "AppReview"  # Set which dataset to analyze
-# res_def = get_senti_1  # Set which method to use to parse the output results of ChatGPT (Utilize get_senti_1 by default, and all reported data are based on this default def)
-# input_fname = f"input/{target_name}_test.txt"
-# output_fname = f"ChatGPT/outputs/{target_name}_gpt_p{def_index}.{prompt_index}.txt"
-# formated_fname = f"ChatGPT/outputs/{target_name}_formated_p{def_index}.{prompt_index}.csv"
 
 if __name__ == '__main__':
     # input_dir = Path('./input')
