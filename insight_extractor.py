@@ -18,7 +18,7 @@ def extractor(essay_name, index,task_description):
     :param essay_name:Name of the essay file.
     :param index:Index of the essay for file naming.
     :param task_description:Task description for generating dynamic prompts.
-    :return:
+    :return: None
     """
     # Read the essay content
     print(f"Processing file: {essay_name}")
@@ -30,28 +30,7 @@ def extractor(essay_name, index,task_description):
 
         insights = []
 
-        # # Step1: Static Questions
-        # for question_name in questions_list:
-        #     basic_question_path = './questions/'
-        #     questions = []
-        #     with open(basic_question_path + question_name,
-        #               'r',
-        #               encoding='utf-8') as qfile:
-        #         for line in qfile:
-        #             if not line.strip() == "":
-        #                 questions.append(line)
-        #
-        #     for question in questions:
-        #         pmt = f'''
-        #         Here is a paper delimited with the triple backticks.
-        #         ```{text}```
-        #         {question}
-        #         '''
-        #         response = gpt.get_completion_from_pmt_with_big_turbo(pmt)
-        #         print(f"Generated response: {response}")
-        #         insights.append(response)
-
-        # Step2: Dynamic Prompts
+        # Step1: Dynamic Prompts
         dynamic_prompts = generate_prompts(task_description)
         print(f"Dynamic Prompts: {dynamic_prompts}")
 
@@ -60,14 +39,13 @@ def extractor(essay_name, index,task_description):
             Here is a paper delimited with the triple backticks.
             ```{text}```
             {prompt}
-            
             Please limit your response to 100 words.
             '''
             response = gpt.get_completion_from_pmt_with_big_turbo(pmt)
             insights.append(f"Prompt {i}:\n{prompt}\n\nResponse {i}:\n{response}\n")
             print(f"Generated response for Prompt {i}: {response}")
 
-        # Step3: Save Insights
+        # Step2: Save Insights
         insight_text = "\n\n".join(insights) + "\n"
         insight_name = f'{index}_insights.txt'
         print(f"Writing insights to {insights_path + insight_name}")

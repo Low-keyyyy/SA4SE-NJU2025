@@ -46,6 +46,7 @@ def generate_prompts(task_description):
     :param task_description: Description of the task (e.g., "sentiment analysis for software engineering texts").
     :return: A list of dynamically generated prompts.
     """
+    # task_description 太general & 可以给literature review + task_description
     prompt_to_generate_prompts = f"""
     I need to extract insights from research papers to improve {task_description}.
     As an expert prompt engineer, please generate three insightful prompts that can guide ChatGPT in digesting insights from these papers. Make sure the prompts are specific, relevant, and help extract the most useful information.
